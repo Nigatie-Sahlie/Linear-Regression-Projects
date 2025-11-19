@@ -1,0 +1,24 @@
+******************Simple workflow for supervised machine learning******************
+1. Loading the dataset
+2. Exploratory Data Analysis- detecting the problems
+    -Expolring the dataset
+        -explor missing Values(using isnull function)
+        -find duplicate Rows
+    -Data Analysis and Visualization
+        -Detect outliers for both categorical and numerical Columns
+        -Explor irrelevant features, multicolinearity, and know strong features
+        -Know the skewness of the data-(using his(), boxplot(), skew(), Q-Q plot-prbplot())
+3. Feature Engineering- Handling the problems
+    -Handling Missing Values
+        -drop heavy missing Columns (using drop function)
+        -fill the approprate values for the row(using dropna function)
+    -Drop Duplicate Rows
+    -Drop Irrelevant Columns
+    -Handling Outliers-usign(IQR, z-score, percentile trim)
+    -Making Log transfromation if needed(for skewed data)
+    -Ecoding Features-non numerical Columns should be changed to numerical values
+    -Standardizaion and Normalization-it is scaling
+    -Separating Feature and Target Variables
+4. Split Train-Test Data
+5. Train the Aproprate Model
+6. Model Evaluation
